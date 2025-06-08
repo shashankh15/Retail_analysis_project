@@ -90,29 +90,22 @@ FROM Orders o
 LEFT JOIN Returns r ON o.OrderID = r.OrderID
 GROUP BY o.Region;
 
+
 📊 Power BI Dashboard Highlights
 6 KPI Cards: Revenue, Orders, Quantity, Discount, Profit Margin, AOV
-
 Dynamic filters: Region, Segment, Category, Date Range
 
 Visuals:
-
 Bar: Revenue by Region
-
 Pie: Segment Revenue
-
 Line: Monthly Revenue Trends
-
 Bar: Top 5 Product Sales
-
 Clean layout, professional formatting, and business insights panel
+
 
 💡 Key Business Insights
 🔸 West region generates the most revenue but highest return rate
-
 🔸 Corporate customers contribute over 50% of total revenue
-
 🔸 Canon 2200 series alone generated ₹62K in sales
-
 🔸 Discounts above 30% correlate with low-profit orders
 
