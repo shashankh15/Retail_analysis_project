@@ -37,9 +37,9 @@ JOIN Products p ON od.ProductID = p.ProductID
 GROUP BY p.ProductName
 ORDER BY Revenue DESC
 LIMIT 5;
-
-
+```
  2. 📍 Revenue by Region
+```
 sql
 Copy
 Edit
@@ -51,9 +51,9 @@ JOIN OrderDetails od ON o.OrderID = od.OrderID
 JOIN Products p ON od.ProductID = p.ProductID
 GROUP BY o.Region
 ORDER BY TotalRevenue DESC;
-
-
+```
 3. ⏱️ Avg Delivery Days per Region
+```
 sql
 Copy
 Edit
@@ -62,9 +62,9 @@ SELECT
   ROUND(AVG(DATEDIFF(DeliveryDate, OrderDate)), 2) AS AvgDeliveryDays
 FROM Orders
 GROUP BY Region;
-
-
+```
 4. 🧍 Revenue by Customer Segment
+```
 sql
 Copy
 Edit
@@ -77,9 +77,9 @@ JOIN OrderDetails od ON o.OrderID = od.OrderID
 JOIN Products p ON od.ProductID = p.ProductID
 GROUP BY c.Segment
 ORDER BY SegmentRevenue DESC;
-
-
+```
 5. 🔁 Return Rate by Region
+```
 sql
 Copy
 Edit
@@ -89,7 +89,7 @@ SELECT
 FROM Orders o
 LEFT JOIN Returns r ON o.OrderID = r.OrderID
 GROUP BY o.Region;
-
+```
 
 📊 Power BI Dashboard Highlights
 6 KPI Cards: Revenue, Orders, Quantity, Discount, Profit Margin, AOV
@@ -104,10 +104,10 @@ Clean layout, professional formatting, and business insights panel
 
 
 💡 Key Business Insights
-🔸 West region generates the most revenue but highest return rate
-🔸 Corporate customers contribute over 50% of total revenue
-🔸 Canon 2200 series alone generated ₹62K in sales
-🔸 Discounts above 30% correlate with low-profit orders
+- West region generates the most revenue but highest return rate
+- Corporate customers contribute over 50% of total revenue
+- Canon 2200 series alone generated ₹62K in sales
+- Discounts above 30% correlate with low-profit orders
 
 ---
 
