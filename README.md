@@ -25,7 +25,7 @@ This project simulates the work of a data analyst inside an MNC, analyzing reven
 
 ---
 
-## 🔥 SQL Business Queries Used (MySQL Logic)
+## 🔥 SQL Queries Used 
 
  1. 🏆 Top 5 Products by Revenue
 ```sql
