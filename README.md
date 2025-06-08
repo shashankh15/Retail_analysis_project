@@ -109,9 +109,9 @@ Clean layout, professional formatting, and business insights panel
 🔸 Canon 2200 series alone generated ₹62K in sales
 🔸 Discounts above 30% correlate with low-profit orders
 
-🤝 Let's Connect!
-If you found this project insightful or have feedback to share, feel free to connect or drop a ⭐ on this repo!
-
-📬 Contact
+📬 Let’s Connect
 📧 Email: hosmanishashank1517@gmail.com
-💼 LinkedIn: www.linkedin.com/in/shashank-hosmani-7b31a6317
+🔗 LinkedIn: linkedin.com/in/shashank-hosmani-7b31a6317
+
+💬 I'm open to internships, collaborations, and feedback! Feel free to connect!
+
